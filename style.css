@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#custombackground {
+    background-image: url("./desert.jpg");
+    background-size: 35vw 100vh;
+    background-position: center;
+    width: 35vw;
+    height: 100vh;
+}
