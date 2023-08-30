@@ -69,6 +69,7 @@ body {
 }
 
 #headertext {
+    font-size: 2.2vh;
     position: absolute;
     bottom: 6vh;
     left: 5vh;
@@ -88,7 +89,7 @@ body {
 }
 
 #mainheader {
-    font-size: 20px;
+    font-size: 2.2vh;
     font-weight: bold;
     letter-spacing: -1px;
     position: absolute;
@@ -104,7 +105,7 @@ fieldset {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 3.5vh;
 }
 
 #formgroup {
@@ -125,7 +126,7 @@ label {
 }
 
 input {
-    height: 20px;
+    height: 2.5vh;
     width: 250px;
     border: 1px solid lightgray;
     border-radius: 5px;
