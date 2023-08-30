@@ -33,31 +33,31 @@
                     <div id="formgroup">
                         <div id="formelement">
                             <label for="first_name">FIRST NAME</label>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" class="input">
                         </div>
 
                         <div id="formelement">
                             <label for="last_name">LAST NAME</label>
-                            <input type="text" name="last-name" id="last_name">
+                            <input type="text" name="last-name" id="last_name" class="input">
                         </div>
                     </div>
 
                     <div id="formgroup">
                         <div id="formelement">
                             <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" class="input">
                         </div>
                         
                         <div id="formelement">
                             <label for="phonenumber">PHONE NUMBER</label>
-                            <input type="tel" name="phonenumber" id="phonenumber">
+                            <input type="tel" name="phonenumber" id="phonenumber" class="input">
                         </div>
                     </div>
 
                     <div id="formgroup">
                         <div id="formelement">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password" 
+                            <input type="password" name="password" id="password" class="input"
                                 onkeyup="checkPassword()" required>
                             <div id="passmatch">* Passwords do not match</div>
                         </div>
@@ -65,7 +65,7 @@
                         <div id="formelement">
                             <label for="confirm_password">CONFIRM PASSWORD</label>
                             <input type="password" name="confirm_password" id="confirm_password"
-                                onkeyup="checkPassword()" required>
+                                class="input" onkeyup="checkPassword()" required>
                         </div>
                     </div>
                 </fieldset>
@@ -76,6 +76,7 @@
             <div>Already have an account? <a href="" id="loginlink">Log in</a></div>
         </div>
     </div>
+    <img src="dark.svg" alt="modeswitch" id="modeswitch" onclick="changeMode()">
     <script src="script.js"></script>
 </body>
 </html>

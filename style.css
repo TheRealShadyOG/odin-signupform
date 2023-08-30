@@ -142,7 +142,7 @@ input:invalid, .invalid {
 
 input:focus {
     border: 1px solid blue;
-    box-shadow: 2px 2px 2px lightgray;
+    box-shadow: 2px 2px 2px gray;
     outline: none;
 }
 
@@ -195,4 +195,11 @@ input:focus {
 
 #header, #footer {
     background-color: whitesmoke;
+}
+
+#modeswitch {
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    height: 3vh;
 }
