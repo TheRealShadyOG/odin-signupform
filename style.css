@@ -133,6 +133,7 @@ input {
 
 input:focus {
     border: 1px solid blue;
+    box-shadow: 2px 2px 2px lightgray;
     outline: none;
 }
 
