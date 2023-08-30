@@ -63,6 +63,19 @@ body {
 #header {
     height: 35vh;
     width: 65vw;
+    font-size: 20px;
+    letter-spacing: -1px;
+    position: relative;
+}
+
+#headertext {
+    position: absolute;
+    bottom: 6vh;
+    left: 5vh;
+}
+
+#headertext:first-child {
+    margin-bottom: 5vh;
 }
 
 #main {
