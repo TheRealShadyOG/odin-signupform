@@ -37,7 +37,7 @@ body {
 }
 
 #companyname {
-    font-family: logo-font;
+    font-family: logo-font, arial;
     font-size: 5rem;
     color: white;
 }
@@ -50,6 +50,6 @@ body {
 }   
 
 #credit, #credit a {
-    font-family: logo-font;
+    font-family: logo-font, arial;
     color: white;
 }
