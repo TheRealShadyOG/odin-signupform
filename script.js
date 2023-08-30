@@ -14,7 +14,13 @@ function checkPassword() {
         confirmPass.classList.remove("valid");
         confirmPass.classList.add("invalid");
 
-        errorMsg.setAttribute("id", "error");
+        if (modeSwitch.getAttribute("src") === "dark.svg") {
+            errorMsg.setAttribute("style", "");
+            errorMsg.setAttribute("id", "error");
+        } else {
+            errorMsg.style.color = "red";
+        }
+        
 
         btn.disabled = true;
     } else {
@@ -25,7 +31,12 @@ function checkPassword() {
         confirmPass.classList.remove("invalid");
         confirmPass.classList.add("valid");
         
-        errorMsg.setAttribute("id", "valid");
+        if (modeSwitch.getAttribute("src") === "dark.svg") {
+            errorMsg.setAttribute("style", "");
+            errorMsg.setAttribute("id", "valid");
+        } else {
+            errorMsg.style.color = "#181a1b";
+        }
 
         btn.disabled = false;
     }
