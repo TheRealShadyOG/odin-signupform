@@ -89,6 +89,34 @@ body {
 #footer {
     height: 35vh;
     width: 65vw;
+    position: relative;
+}
+
+#footer > div, button {
+    position: absolute;
+    top: 4vh;
+    left: 5vh;
+}
+
+#footer > div {
+    margin-top: 8vh;
+}
+
+#footer > button {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px lightgray;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #a68677;
+}
+
+#loginlink {
+    text-decoration: none;
+    color: #a68677;
 }
 
 #header, #footer {
