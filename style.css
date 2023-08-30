@@ -38,7 +38,7 @@ body {
 
 #companyname {
     font-family: logo-font, arial;
-    font-size: 5rem;
+    font-size: 80px;
     color: white;
 }
 
@@ -57,6 +57,7 @@ body {
 #content {
     background-size: 65vw 100vh;
     max-width: 65vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
@@ -74,8 +75,6 @@ body {
 #footer {
     height: 35vh;
     width: 65vw;
-    /*box-shadow: 0px 4px 4px lightgray inset;
-    */ 
 }
 
 #header, #footer {
