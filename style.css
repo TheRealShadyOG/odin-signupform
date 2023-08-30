@@ -131,14 +131,14 @@ input {
     border-radius: 5px;
 }
 
+input:invalid {
+    border-color: darkred;
+}
+
 input:focus {
     border: 1px solid blue;
     box-shadow: 2px 2px 2px lightgray;
     outline: none;
-}
-
-input:invalid {
-    border-color: darkred;
 }
 
 #footer {
