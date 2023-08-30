@@ -9,7 +9,7 @@
 <body>
     <div id="custombackground">
         <div id="logocontainer">
-            <img src="link.svg" alt="link" id="companylogo" fill="#"FFFFFF>
+            <img src="link.svg" alt="link" id="companylogo">
             <div id="companyname">Link</div>
         </div>
         <div id="credit"> 
@@ -17,8 +17,48 @@
             </cite> on <a href="https://unsplash.com/">Unsplash.</a>
         </div>
     </div>
-    <div>
+    <div id="content">
+        <div id="header">
+            <div> 
+                This is not a real online service! You know you need something like this in 
+                your life to help you realize your deepest dreams. Sign up now to get started.
+            </div>
+            <div>You <em>know</em> you want to.</div>
+        </div>
+        <div id="main">
+            <form action="/my-server" method="post">
+                <div>Let's do this!</div>
+                <fieldset>    
+                    <div>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name">
 
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                        
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="tel" name="phonenumber" id="phonenumber">
+                    </div>
+
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm_password" id="confirm_password">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="footer">
+            <button type="submit">Create Account</button>
+            <div>Already have an account? <a href="">Log in</a></div>
+        </div>
     </div>
 </body>
 </html>
