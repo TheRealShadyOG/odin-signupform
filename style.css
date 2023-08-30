@@ -131,8 +131,12 @@ input {
     border-radius: 5px;
 }
 
-input:invalid {
+input:invalid, .invalid {
     border-color: darkred;
+}
+
+.valid {
+    border-color: lightgray;
 }
 
 input:focus {
@@ -141,8 +145,15 @@ input:focus {
     outline: none;
 }
 
-#passmatch {
+#passmatch, #error {
     color: darkred;
+    font-size: 10px;
+    position: absolute;
+    bottom: -1.5vh;
+}
+
+#valid {
+    color: white;
     font-size: 10px;
     position: absolute;
     bottom: -1.5vh;
