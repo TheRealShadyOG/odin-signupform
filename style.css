@@ -131,6 +131,15 @@ input {
     border-radius: 5px;
 }
 
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+input:invalid {
+    border-color: darkred;
+}
+
 #footer {
     height: 35vh;
     width: 65vw;
