@@ -101,6 +101,9 @@ fieldset {
     left: 4vh;
     border: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 #formgroup {
@@ -118,6 +121,11 @@ label {
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+input {
+    height: 20px;
+    width: 250px;
 }
 
 #footer {
