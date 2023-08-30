@@ -127,6 +127,8 @@ label {
 input {
     height: 20px;
     width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
 #footer {
