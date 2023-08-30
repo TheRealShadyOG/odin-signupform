@@ -89,6 +89,7 @@ body {
 
 #mainheader {
     font-size: 20px;
+    font-weight: bold;
     letter-spacing: -1px;
     position: absolute;
     top: 2vh;
@@ -97,7 +98,7 @@ body {
 
 fieldset {
     position: absolute;
-    bottom: 3vh;
+    bottom: 4vh;
     left: 4vh;
     border: none;
     padding: 0;
