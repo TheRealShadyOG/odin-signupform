@@ -84,6 +84,34 @@ body {
     width: 65vw;
     position: relative;
     box-shadow: 0 5px 5px lightgray, 0 -1px 2px lightgray;
+    position: relative;
+}
+
+#mainheader {
+    font-size: 20px;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 2vh;
+    left: 4vh;
+}
+
+fieldset {
+    position: absolute;
+    bottom: 3vh;
+    left: 4vh;
+    border: none;
+    padding: 0;
+}
+
+#formgroup {
+    display: flex;
+    gap: 5vh;
+}
+
+#formelement {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 #footer {
