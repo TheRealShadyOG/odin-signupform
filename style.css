@@ -1,3 +1,8 @@
+@font-face{
+    font-family: logo-font;
+    src: url(./Cairo-Black.ttf);
+} 
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +14,39 @@
     background-position: center;
     width: 35vw;
     height: 100vh;
+    position: relative;
+}
+
+#logocontainer {
+    position: absolute;
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 35vw;
+    height: 10vh;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+#companylogo {
+    height: 5rem;
+    width: 5rem;
+}
+
+#companyname {
+    font-family: logo-font;
+    font-size: 5rem;
+}
+
+#credit {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}   
+
+#credit, a {
+    font-family: logo-font;
+    color: white;
 }
